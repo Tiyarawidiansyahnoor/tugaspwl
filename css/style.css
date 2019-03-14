@@ -1,0 +1,70 @@
+body{
+  background: url(../img/bg-1.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-dark.transparent.onscroll{
+  background: #0984e3;
+}
+
+.carousel-caption {
+  top: 35%;
+  left: 25%;
+  right: 25%;
+  bottom: auto;
+  background: #000000c4;
+  border-radius: 2%;
+  text-align: center;
+}
+
+.container .konten{
+  background: #fff;
+  background: #ffffffbf;
+}
+
+.carousel-caption .contact-info{
+  margin: 0;
+  color: #E3F2FD;
+  padding-top: 0px;
+}
+
+.carousel-caption .contact-info li i.fas{
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 32px;
+  border: 1px solid #E3F2FD;
+  top: 4px;
+  float: left;
+  position: relative;
+}
+
+.carousel-caption .contact-info li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.carousel-caption .contact-info li p{
+    text-align: left;
+    font-size: 12px;
+    padding: 0;
+    padding-left: 0px;
+    padding-left: 42px;
+    margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
