@@ -1,28 +1,11 @@
-body{
-  background: url(../img/bg-1.jpg) no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.navbar-dark.transparent.onscroll{
-  background: #0984e3;
-}
-
 .carousel-caption {
-  top: 35%;
+  top: 31%;
   left: 25%;
   right: 25%;
   bottom: auto;
   background: #000000c4;
   border-radius: 2%;
   text-align: center;
-}
-
-.container .konten{
-  background: #fff;
-  background: #ffffffbf;
 }
 
 .carousel-caption .contact-info{
@@ -60,6 +43,11 @@ body{
     padding-left: 0px;
     padding-left: 42px;
     margin: 0;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
 }
 
 * {
