@@ -3,7 +3,7 @@
   $(document).ready(function(){
     $(window).scroll(function() { 
       if ($(this.document).scrollTop() > 150) { 
-        $(".carousel-caption").css("opacity", "0.5"); 
+        $(".carousel-caption").css({"opacity":"0.5","transition":"opacity 1s"}); 
       } 
       else{
         $(".carousel-caption").css("opacity", "1");

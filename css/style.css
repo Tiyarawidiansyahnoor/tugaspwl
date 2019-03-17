@@ -10,11 +10,8 @@
 
 
 
-.fade-in {
-	opacity: 0.5;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
+.fade_out{
+	visibility: hidden;
 	animation-duration: 2s;
 }
 
