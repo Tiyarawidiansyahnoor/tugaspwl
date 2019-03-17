@@ -63,21 +63,42 @@
               </ul>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+                  <a class="nav-link" href="#"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fas fa-sign-in-alt"></i> Login</button></a>
                 </li>
               </ul>
               </div>
             </div>
           </nav>
+          <!--Modal-->
+        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="myModal">
+            <div class="modal-dialog modal-sm">
+              <div class="modal-content">
+                <div class="container">
+                  <!-- Default form login -->
+                  <form class="text-center border border-light p-5">
+                    <p class="h4 mb-4">Sign in</p>
+                    <!-- Email -->
+                    <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
+                    <!-- Password -->
+                    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password">
+                    <!-- Sign in button -->
+                    <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+                  </form>
+                    <!-- Default form login -->
+                </div>
+              </div>
+            </div>
+          </div>
+  <div id="modal_blur">
     <!--Carousel-->
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="d-block w-100" src="img/header.jpg" alt="First slide">
           </div>
-          <div class="carousel-caption hidden-xs" id="header-carousel">
+          <div class="carousel-caption  d-none d-md-block animasi-header">
               <h2>FAKULTAS TEKNIK</h2>
-              <p class="font-weight-normal">Selamat datang di website Fakultas Teknik Universitas Suryakancana (FT-UNSUR). Fuji syukur kami panjatkan kehadirat Allah SWT atas kuasanya kami dapat merealisasikan website Fakultas Teknik Universitas Suryakancana.
+              <p class="font-weight-normal margin-carousel">Selamat datang di website Fakultas Teknik Universitas Suryakancana (FT-UNSUR). Fuji syukur kami panjatkan kehadirat Allah SWT atas kuasanya kami dapat merealisasikan website Fakultas Teknik Universitas Suryakancana.
                 Fakultas Teknik merupakan salah satu fakultas di Universitas Suryakancana yang menyelenggarakan 3 program studi berjenjang Sarjana (S1) yang terdiri dari Program Studi Teknik Industri, Program Studi Teknik Sipil dan Program Studi Teknik Informatika. Ketiga Program Studi tersebut telah terakreditasi Badan Akreditasi Nasional (BAN-PT).
               </p>
               <div class="container">
@@ -123,6 +144,7 @@
       </div>
     </div>
 
+    <!--Footer-->
     <footer class="page-footer font-small primary-color-dark pt-4">
 
       <!-- Footer Links -->
@@ -133,7 +155,6 @@
   
           <!-- Grid column -->
           <div class="col-md-3 mt-md-0 mt-3">
-  
             <!-- Content -->
             <h5 class="text-uppercase">Kontak Kami</h5>
             <span class="font-weight-bold">Fakultas Teknik Universitas Suryakancana</span>
@@ -214,9 +235,6 @@
                 <li>
                   <a href="#!">Labtif</a>
                 </li>
-                <li>
-                  <a href="#!">Link 4</a>
-                </li>
               </ul>
   
             </div>
@@ -235,13 +253,20 @@
       <!-- Copyright -->
   
     </footer>
+  </div>
     <!-- Footer -->
     <!-- Optional JavaScript -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+			  src="https://code.jquery.com/jquery-1.12.4.min.js"
+			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+			  crossorigin="anonymous"></script>
+		
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
+    <script src="js/animasi.js" type="text/javascript"></script>
     <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
 <script src="js/plugins/bootstrap-switch.js"></script>
 
@@ -258,6 +283,6 @@
 
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
-<script src="js/animasi.js" type="text/javascript"></script>
+
   </body>
 </html>

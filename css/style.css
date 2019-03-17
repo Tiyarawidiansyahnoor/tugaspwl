@@ -1,3 +1,23 @@
+.blur{
+  -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+  filter: blur(5px);
+  transition: 2s -webkit-filter linear;
+}
+
+.modal-dialog{
+  margin-top: 10%;
+}
+
+
+
+.fade-in {
+	opacity: 0.5;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
 .carousel-caption {
   top: 31%;
   left: 25%;
@@ -12,6 +32,11 @@
   margin: 0;
   color: #E3F2FD;
   padding-top: 0px;
+}
+
+.margin-carousel{
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .carousel-caption .contact-info li i.fas{
