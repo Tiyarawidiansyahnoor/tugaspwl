@@ -8,6 +8,10 @@
   margin-top: 10%;
 }
 
+.konten{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 
 .fade_out{
@@ -16,7 +20,7 @@
 }
 
 .carousel-caption {
-  top: 31%;
+  top: 35%;
   left: 25%;
   right: 25%;
   bottom: auto;
